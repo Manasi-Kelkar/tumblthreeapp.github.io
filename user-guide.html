@@ -142,6 +142,15 @@ section h4{
   width:40%;
   height:40%;
 }
+.center:hover{
+position:relative;
+top:-25px;
+left:-35px;
+width:fit-content;
+height:fit-content;
+display:block;
+z-index:999;
+}
         </style>
         <title> TumblThree - A Tumblr Backup Application</title>
     </head>
@@ -298,7 +307,7 @@ section h4{
                 <h4 id="howtodwnldablog">How to download a blog?</h4>
                 <ol>
                     <li>To start the download process, click on "Crawl".</li>
-                    <li>The application will regularly check for (new) blogs in the queue and start
+                    <li>The application will regularly check for (new) blogs in the queue and starts
                         processing them, until you stop the application by pressing "Stop".</li>
                     <li>You can add blogs to the queue via "Add to Queue" or double click/drag n
                         drop first and then click "Crawl", or you start the download process first
@@ -340,7 +349,7 @@ section h4{
                     <li>Add the blog url.</li>
                     <li>Open the blog in the "Details" tab.</li>
                     <li>Enter the tags in the &quot;Tags&quot;textbox in a comma separated list without the leading hash (#)
-                        sign.(e.g. great big car,bears would search for images that are tagged for
+                        sign.(e.g. great big car, bears would search for images that are tagged for
                         either a great big car or bears or both.)</li><br>
                 </ol>
                 <a href="https://raw.githubusercontent.com/Manasi-Kelkar/tumblthreeapp.github.io/master/images/how-to-download-only-tagged-posts.png" target="_blank">
@@ -359,7 +368,7 @@ section h4{
             <li>
                 <h4 id="howtodwnldhiddenblogs">How to download hidden blogs (login required blogs)?</h4>
                 <ol>
-                    <li>Go to "Settings", click on the "Connection" tab and fill in your tumblr email
+                    <li>Go to "Settings," click on the "Connection" tab and fill in your tumblr email
                         address in "tumblr login" and "tumblr password" textbox.</li>
                     <li>Click on the "Authenticate" button. If the login was successful, the label
                         will change and display your email address (The email address and password
@@ -372,7 +381,7 @@ section h4{
             <li>
                 <h4 id="howtodwnldlikedphotosandvideos">How to download "liked" photos and videos?</h4>
                 <ol>
-                    <li>Go to "Settings", click on the "Connection" tab and fill in your tumblr email
+                    <li>Go to "Settings," click on the "Connection" tab and fill in your tumblr email
                         address in "tumblr login" and "tumblr password" textbox.</li>
                     <li>Click the "Authenticate" button. If the login was successful, the label will
                         change and display your email address (The email address and password are
@@ -405,7 +414,7 @@ section h4{
             <li>
                 <h4 id="howtodwnldphotosandvideosfrmthetumblrtagsearch">How to download photos and videos from the tumblr tag search?</h4>
                 <ol>
-                    <li>Go to "Settings", click on the "Connection" tab and fill in your tumblr email
+                    <li>Go to "Settings," click on the "Connection" tab and fill in your tumblr email
                         address in "tumblr login" and "tumblr password" textbox.</li>
                     <li>Click the "Authenticate" button. If the login was successful, the label will
                         change and display your email address (The email address and password are
@@ -484,7 +493,7 @@ section h4{
                 when it was added. This allows you to move your downloaded files (photos, videos,
                 audio files) to a different location without interfering with the downloading
                 process. </li>
-            <li> Some settings aren"t hooked up to the graphical user interface. It's possible to
+            <li> Some settings aren't hooked up to the graphical user interface. It's possible to
                 view all TumblThree settings by opening the settings.json in any editor located in
                 C:\Users\Username\AppData\Local\TumblThree. Their names should be self explainatory. </li><br>
             <li> Some notable settings to further fine tune the application include:</li> <ul>

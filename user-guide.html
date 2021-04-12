@@ -435,10 +435,10 @@ z-index:999;
                     <ul>
                     <li><strong>A red background</strong> shows <strong>an offline
                         blog</strong>.</li>
-                    <li><strong>A green background</strong> shows <strong>an actively</strong>
-                        crawling blog.</li>
-                    <li><strong>A purple background</strong> shows <strong>an</strong> enqueued
-                        blog.</li>
+                    <li><strong>A green background</strong> shows <strong>an actively
+                        crawling blog</strong>.</li>
+                    <li><strong>A purple background</strong> shows <strong>an enqueued
+                        blog</strong>.</li>
                     </ul>
                 </ul>
             </li><br>
@@ -461,8 +461,8 @@ z-index:999;
                     <li>Add the blog URL.</li>
                     <li>Open the blog in the "Details" tab.</li>
                     <li>Enter the tags in the &quot;Tags&quot; textbox in a comma separated list without the leading hash (#)
-                        sign.(e.g. great big car, bears would search for images that are tagged for
-                        either a great big car or bears or both.)</li><br>
+                        sign (e.g. great big car, bears would search for images that are tagged for
+                        either a great big car or bears or both.).</li><br>
                 </ol>
                 <a href="https://raw.githubusercontent.com/Manasi-Kelkar/tumblthreeapp.github.io/master/images/how-to-download-only-tagged-posts.png" target="_blank">
 <img src="https://manasi-kelkar.github.io/tumblthreeapp.github.io/images/how-to-download-only-tagged-posts.png" alt="How to download only tagged posts" class="center"></a>
@@ -499,15 +499,15 @@ z-index:999;
                         change and display your email address (The email address and password are
                         not stored locally on disk but cookies are generated and saved in
                         %LOCALAPPDATA%\TumblThree in json format).</li>
-                    <li>Add the blog URL including the liked/by string in the URL. (e.g. <a
+                    <li>Add the blog URL including the liked/by string in the URL (e.g. <a
                             href="https://www.tumblr.com/liked/by/wallpaperfx/"
                             >https://www.tumblr.com/liked/by/wallpaperfx/</a>).</li>
                 </ol>
             </li><br>
             <li>
                 <h4 id="howtodwnldyourownlikes">How to download your own likes?</h4>
-                <p>Make sure you have (temporarily) enabled the following options in your blogs
-                settings: <br />(i.e. <a href="https://www.tumblr.com/settings/blog/yourblogname"
+                <p>Make sure you have (temporarily) enabled the following options in your blog's
+                settings<br/>(i.e. <a href="https://www.tumblr.com/settings/blog/yourblogname"
                     >https://www.tumblr.com/settings/blog/yourblogname</a>): </p>
                     <ol>
                     <li>Likes: Share posts you like (to enable the publicly visible
@@ -543,7 +543,7 @@ z-index:999;
         lower panel of the main user interface) you might want to do few changes:</p> 
         <ul>
             <li> General &gt; Download location: Specifies where to download the files. The
-                default is in folder Blogs relative to the TumblThree.exe. </li>
+                default is in folder blogs relative to the TumblThree.exe. </li>
                 <a href="https://raw.githubusercontent.com/Manasi-Kelkar/tumblthreeapp.github.io/master/images/blog-location.png" target="_blank"><img src="https://manasi-kelkar.github.io/tumblthreeapp.github.io/images/blog-location.png" alt="Blog location" class="center"></a>
             <li> Blog &gt; Settings applied to each blog upon addition: <ul>
                     <li>Here you can set what posts, newly added blogs will download per default.
@@ -570,16 +570,16 @@ z-index:999;
             <li>Settings you might want to change if the download speed is not
                     satisfactory:
                 <ul>
-                    <li>Connection &gt; Concurrent connections: Specifies the number of
+                    <li>Connection&gt;Concurrent connections: Specifies the number of
                         connections used for downloading posts. The number is shared between all
                         actively downloading blogs.</li>
-                    <li>Connection &gt; Concurrent video connections: Specifies the number of
+                    <li>Connection&gt;Concurrent video connections: Specifies the number of
                         connections used for downloading tumblr video posts. The
                             <strong>vt.tumblr.com</strong> host regularly closes connections if the
                         number is too high. Thus, the maximum number of
                             <strong>vt.tumblr.com</strong> connections can be specified here
                         independently.</li>
-                    <li>Connection &gt; Concurrent blogs: Number of blogs to download in
+                    <li>Connection&gt;Concurrent blogs: Number of blogs to download in
                         parallel.</li>
               </ul>  
        
@@ -588,7 +588,7 @@ z-index:999;
             <li> Most likely you don't have to change any of the other connection settings. In
                 particular, settings you should never change, unless you're sure that you know what you
                 are doing. <ul>
-                    <li>Connection -\&gt; Limit Tumblr Api Connections: Leave this checkbox
+                    <li>Connection&gt;Limit Tumblr Api Connections: Leave this checkbox
                         checked and do not change the corresponding values of 90 connections per 60
                         seconds. If you still change them, you might end up with offline blogs or
                         missing downloads.</li>
@@ -613,7 +613,7 @@ z-index:999;
                         <li> It allows to set the buffer size for downloading binary files (photos,
                         videos) in multiples of 4KB. The default is 2MB, thus the buffer size has a
                         value of 512. </li>
-                        <li> Increasing buffer size value reduces disk fragmentation as more of the file is
+                        <li> Increasing buffer size value more than 512, reduces disk fragmentation as more of the file is
                         kept in the memory before it gets written out to the disk but increases the
                         memory usage. </li>
                     </ul><br>
